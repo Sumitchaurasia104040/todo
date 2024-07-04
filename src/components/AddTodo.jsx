@@ -23,6 +23,7 @@ function AddTodo({ onNewItem }) {
       <div className="row kg-row">
         <div className="col-6">
           <input
+          className="addtodo"
             type="text"
             placeholder="Enter Todo Here"
             value={todoName}
@@ -30,7 +31,7 @@ function AddTodo({ onNewItem }) {
           />
         </div>
         <div className="col-4">
-          <input type="date" value={dueDate} onChange={handleDateChange} />
+          <input className="adddate" type="date" value={dueDate} onChange={handleDateChange} />
         </div>
         <div className="col-2">
           <button

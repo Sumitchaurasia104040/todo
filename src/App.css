@@ -9,3 +9,22 @@ input {
 .kg-row {
   margin: 10px 5px;
 }
+*{
+  background-color: rgb(218, 250, 250);
+ 
+
+ 
+}
+.addtodo{
+  border-radius: 8px;
+  padding: 10px;
+  border: hidden;
+  border: 1px solid gray;
+}
+.adddate{
+  border-radius: 8px;
+  padding: 10px;
+  border: hidden;
+  border: 1px solid gray;
+ 
+}
